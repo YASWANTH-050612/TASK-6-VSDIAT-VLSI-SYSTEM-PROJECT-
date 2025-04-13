@@ -1,0 +1,7 @@
+# top.bit - FPGA Configuration Bitstream
+
+# (This is a placeholder for the actual bitstream data, which would be in binary format.)
+# It is generated after running `icepack`.
+
+# Example (in binary):
+111111000010110010001101101001010010110011100010000100011011000000101110111000000101011101111011001101100101010101000000
