@@ -18,12 +18,6 @@ This project implements a simple FPGA design that interfaces with a sensor, proc
 1. Clone the repository and navigate to the project directory.
 2. Ensure the FPGA toolchain (Yosys, NextPNR, IcePack, IceProg) is installed.
 3. Run the following command to generate the bitstream:
-
-Flash the FPGA with the generated bitstream using:
-
-```bash
-make program  
-
 ## Known issues
 
 - The sensor functionality is simulated due to hardware unavailability.
@@ -40,3 +34,11 @@ make program
 - `power_report.rpt` - Power consumption report
 - `usage_report.rpt` - Resource usage report
 - `programming_script.sh` - Script to flash the FPGA
+
+
+Flash the FPGA with the generated bitstream using:
+
+```bash
+make program  
+
+
