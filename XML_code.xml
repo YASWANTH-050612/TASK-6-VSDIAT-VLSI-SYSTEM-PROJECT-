@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1120" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    
+    <!-- Sensor Interface -->
+    <mxCell id="2" value="sensor_interface" style="shape=rectangle;fillColor=#D5E8D4;strokeColor=#82B366;" vertex="1" parent="1">
+      <mxGeometry x="100" y="200" width="160" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- UART Transmitter -->
+    <mxCell id="3" value="uart_tx" style="shape=rectangle;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+      <mxGeometry x="400" y="200" width="160" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- Top Module -->
+    <mxCell id="4" value="top.v" style="shape=rectangle;fillColor=#FFE6CC;strokeColor=#D79B00;" vertex="1" parent="1">
+      <mxGeometry x="250" y="100" width="200" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- Connections -->
+    <mxCell id="5" style="endArrow=block;endFill=1;" edge="1" parent="1" source="2" target="3">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="6" style="endArrow=open;dashed=1;" edge="1" parent="1" source="4" target="2">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="7" style="endArrow=open;dashed=1;" edge="1" parent="1" source="4" target="3">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+  </root>
+</mxGraphModel>
