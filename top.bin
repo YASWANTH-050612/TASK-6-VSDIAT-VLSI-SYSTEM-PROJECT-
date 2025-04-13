@@ -1,0 +1,7 @@
+# top.bin - Compressed Binary Version of the Bitstream
+
+# (This is a placeholder for the actual binary data.)
+# The binary file is used to program the FPGA.
+
+# Example (in binary):
+000000001110010111100101011010010100110101001110110100111100011101001001101110010000011010101101110101000010011011100000
